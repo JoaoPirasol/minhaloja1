@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import Cart from "./Cart";
-import Products from "./Products";
+import Cart from "./componentes/Cart";
+import Products from "./componentes/Products";
 
 async function api(url, method, body = undefined) {
   return await fetch(`http://localhost:4000/${url}`, {
